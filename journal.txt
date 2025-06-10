@@ -36,4 +36,5 @@ Fixing accessibiity issues was frustrating. Simply skipping header levels requir
 adjust each heading level's styles. Some of these alerts seem to be excessive and unnecessary.
 
 Some simple styling fixes allowed me to create a "dark" theme with my site. I also fixed a few centering issues with textand various divs. 
-This marked the end of my significant reworks, and led to me rewriting this journal accordingly.
+This marked the end of my significant reworks, and led to me rewriting this journal accordingly. Antiquewhite was a nice choice
+for color against a black background.
