@@ -11,7 +11,7 @@ more dfficult than I expected. I settled on adding custom CSS that would add sig
 I used Bootstrap rounded-circle to style my image. I additionally chose to make the body of my page Times New Roman,
 as I have always loved that font.
 
-Adding id attributes at this stage was crucial, allowing me to link the navbar list items to each section. I teachingbegan work on
+Adding id attributes at this stage was crucial, allowing me to link the navbar list items to each section. I began work on
 the previous works section. Initially, I chose to simply add an img tag with a snapshot of my resume. I changed thisapproach later, causing
 many issues. Because I ultimatey chose to explore embedding PDF files, I decided to research how to use javascript
 and Bootstrap to make a button that would hide/show the embedded PDF. What I did not expect were the many accessability issues
@@ -26,7 +26,7 @@ of a lot of the styling for my form. Here, I also learned about the textarea tag
 creating Contact forms. Accessibiity was a major issue in my original form, leading to a better understanding of 
 value and id as crucial attributes. I chose to use Javascript to give a message to the user when the form was 
 submitted. The submit button triggers a simple function that alerts the user, using their name, that the 
-form has been submitted.
+form has been submitted. Additionally, I added Javascript to make sure no form fields were left empty.
 
 The Projects section was my last major task. Deciding which projects to include was difficult. I chose to ony
 use school projects from previous CS courses for privacy reasons. I used the col-md-4 Bootstrap class to created
