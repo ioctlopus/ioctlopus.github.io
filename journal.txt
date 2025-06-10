@@ -16,5 +16,7 @@ many issues. Because I ultimatey chose to explore embedding PDF files, I decided
 and Bootstrap to make a button that would hide/show the embedded PDF. What I did not expect were the many accessability issues
 PDF files introduce. As a result, I learned a ton of interesting features of Bootstrap and its classes that allow
 collapsible content, but I also learned that PDF files have to be manually audited for accessability, and that
-WAVE woud not ever remove alerts relating to PDF files.
+WAVE would not ever remove alerts relating to PDF files. By using the collapse class and creating Javascript functions
+thatchange the contents of the button, I was able to finally implement a collapsible pdf embed.
 
+The form was my next task. 
