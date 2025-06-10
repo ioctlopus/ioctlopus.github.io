@@ -35,4 +35,5 @@ three side-by-side columns. The content decribes each project and provides links
 Fixing accessibiity issues was frustrating. Simply skipping header levels required fixes. As a result, I had to manually
 adjust each heading level's styles. Some of these alerts seem to be excessive and unnecessary.
 
-Some simple styling fixes allowed me to create a "dark" theme with my site.
+Some simple styling fixes allowed me to create a "dark" theme with my site. I also fixed a few centering issues with textand various divs. 
+This marked the end of my significant reworks, and led to me rewriting this journal accordingly.
