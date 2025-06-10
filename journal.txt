@@ -1,5 +1,5 @@
 The initial page was build using a very similar Bootstrap navbar to the navbar we created in class.
-Using container-fluid, navbar-brans, and navbar-toggle, I created a navbar with links to each section
+Using container-fluid, navbar-brand, and navbar-toggle, I created a navbar with links to each section
 (About Previous Works, Projects, and Contact).
 
 I linked to blank stylesheets and javascript files to start, focusing on getting the main page
@@ -11,7 +11,7 @@ I used Bootstrap rounded-circle to style my image. I additionally chose to make 
 as I have always loved that font.
 
 Adding id attributes at this stage was crucial, allowing me to link the navbar list items to each section. I teachingbegan work on
-the previous works section. Initially, I chose to simply add an img tag with a snapshotof my resume. I changed thisapproach later, causing
+the previous works section. Initially, I chose to simply add an img tag with a snapshot of my resume. I changed thisapproach later, causing
 many issues. Because I ultimatey chose to explore embedding PDF files, I decided to research how to use javascript
 and Bootstrap to make a button that would hide/show the embedded PDF. What I did not expect were the many accessability issues
 PDF files introduce. As a result, I learned a ton of interesting features of Bootstrap and its classes that allow
@@ -19,4 +19,7 @@ collapsible content, but I also learned that PDF files have to be manually audit
 WAVE would not ever remove alerts relating to PDF files. By using the collapse class and creating Javascript functions
 thatchange the contents of the button, I was able to finally implement a collapsible pdf embed.
 
-The form was my next task. 
+The form was my next task. By adding mb-3 to each form element and py-5 to the section, I let Bootstrap take created
+of a lot of the styling for my form. Here, I also learned about the textarea tag and its usefulness when
+creating Contact forms. Accessibiity was a major issue in my original form, leading to a better understanding of 
+value and id as crucial attributes.
