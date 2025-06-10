@@ -1,6 +1,7 @@
 The initial page was build using a very similar Bootstrap navbar to the navbar we created in class.
 Using container-fluid, navbar-brand, and navbar-toggle, I created a navbar with links to each section
-(About Previous Works, Projects, and Contact).
+(About Previous Works, Projects, and Contact). Scrolspy was a nice addition, highlighting whichpage section was currently active as the 
+user scrolls. I also added a navbartoggle button using bootstrap.
 
 I linked to blank stylesheets and javascript files to start, focusing on getting the main page
 built with Bootstrap. The Bootstrap documentation was wildy helpful for the vast majority ofmy styling decisions.
@@ -17,7 +18,8 @@ and Bootstrap to make a button that would hide/show the embedded PDF. What I did
 PDF files introduce. As a result, I learned a ton of interesting features of Bootstrap and its classes that allow
 collapsible content, but I also learned that PDF files have to be manually audited for accessability, and that
 WAVE would not ever remove alerts relating to PDF files. By using the collapse class and creating Javascript functions
-that change the contents of the button, I was able to finally implement a collapsible pdf embed.
+that change the contents of the button, I was able to finally implement a collapsible pdf embed. I used a variety of
+Bootstrap documents to help with the CSS and Javascript that led to the ultimately functional collapsible PDF button.
 
 The form was my next task. By adding mb-3 to each form element and py-5 to the section, I let Bootstrap take created
 of a lot of the styling for my form. Here, I also learned about the textarea tag and its usefulness when
@@ -28,4 +30,9 @@ form has been submitted.
 
 The Projects section was my last major task. Deciding which projects to include was difficult. I chose to ony
 use school projects from previous CS courses for privacy reasons. I used the col-md-4 Bootstrap class to created
-three side-by-side columns. The content decribes each proect and provides links to the respective GitHub repos.
+three side-by-side columns. The content decribes each project and provides links to the respective GitHub repos.
+
+Fixing accessibiity issues was frustrating. Simply skipping header levels required fixes. As a result, I had to manually
+adjust each heading level's styles. Some of these alerts seem to be excessive and unnecessary.
+
+Some simple styling fixes allowed me to create a "dark" theme with my site.
